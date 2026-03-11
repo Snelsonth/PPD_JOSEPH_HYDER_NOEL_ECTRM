@@ -1,0 +1,2 @@
+Dataset,K,Seed,C_V,TD,Purity,NMI
+AGNews,50,42,0.5628,0.9832,0.7624,0.3324

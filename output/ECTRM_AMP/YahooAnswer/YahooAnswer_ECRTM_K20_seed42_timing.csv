@@ -1,0 +1,2 @@
+model,dataset,K,seed,device,phase,train_seconds,total_seconds,train_minutes,total_minutes,epochs_cfg,epochs_ran,amp_requested,amp,amp_fallback_to_fp32,amp_dtype,early_stopped,best_loss
+ECRTM_v2_SPEED,YahooAnswer,20,42,cuda,train,960.7797992759988,961.5111280230012,16.01299665459998,16.02518546705002,500,500,True,True,False,torch.bfloat16,False,260.64881408691406

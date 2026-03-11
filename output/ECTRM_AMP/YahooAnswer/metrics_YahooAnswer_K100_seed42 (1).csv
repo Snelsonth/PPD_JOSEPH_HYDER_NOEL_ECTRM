@@ -1,0 +1,2 @@
+Dataset,K,Seed,C_V,TD,Purity,NMI
+YahooAnswer,100,42,0.5044,0.9344,0.552,0.3002

@@ -1,0 +1,2 @@
+model,dataset,K,seed,device,phase,train_seconds,total_seconds,train_minutes,total_minutes,epochs_cfg,epochs_ran,amp_requested,amp,amp_fallback_to_fp32,amp_dtype,early_stopped,best_loss
+ECRTM_v2_SPEED,20NG,20,42,cuda,train,1081.687329394,1087.333362292,18.028122156566667,18.122222704866665,500,500,True,True,False,torch.bfloat16,False,826.3738820929276
