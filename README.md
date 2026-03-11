@@ -33,14 +33,14 @@ Notebooks principaux :
 - `ECTRM_AMP.ipynb`
 - `ECTRM_UMAP.ipynb`
 - `Fastopic.ipynb`
-- `Fast_topic_avec_UMAP.ipynb`
+- `FAST_TOPIC_UMAP.ipynb`
 
 Autres baselines presentes :
 - `DVAE.ipynb`
 - `ETM_correct.ipynb`
 - `HYPERMINER.ipynb`
 - `K-Means.ipynb`
-- `LDA_V2.ipynb`
+- `LDA.ipynb`
 - `NSTM.ipynb`
 - `WeTe.ipynb`
 - `WLDA.ipynb`
@@ -99,9 +99,12 @@ On y trouve en general :
 - FASTopic : `https://github.com/bobxwu/FASTopic`
 - ETM : `https://github.com/adjidieng/ETM`
 - NSTM : `https://github.com/ethanhezhao/NeuralSinkhornTopicModel`
-- WeTe : `https://github.com/wds2014/WeTe`
+- WeTe : `https://github.com/BoChenGroup/WeTe`
 - HyperMiner : `https://github.com/NoviceStone/HyperMiner`
 - DVAE : `https://github.com/sophieburkhardt/dirichlet-vae-topic-models`
+- WLDA : `https://github.com/jinmang2/W-LDA` 
+- LDA : `https://github.com/akashii99/Topic-Modelling-with-Latent-Dirichlet-Allocation`
+- Kmeans  `https://aclanthology.org/2020.emnlp-main.135/` présence d'un lien vers un zip 
 
 ## Remarques
 - Le dossier actif pour les experiences courantes est `notebook/baselines/`.
