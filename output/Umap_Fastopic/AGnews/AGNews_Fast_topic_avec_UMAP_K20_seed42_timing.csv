@@ -1,0 +1,2 @@
+model,dataset,K,seed,device,phase,prep_seconds,umap_seconds,train_seconds,total_seconds,prep_minutes,umap_minutes,train_minutes,total_minutes,mode,embedding_dim_before,embedding_dim_after,umap_enabled,umap_n_neighbors,umap_cache_hit
+Fast_topic_avec_UMAP,AGNews,20,42,cuda,train,48.894628682000075,48.69575087499993,160.67906322099998,209.6743932290001,0.8149104780333346,0.8115958479166655,2.677984387016666,3.4945732204833346,bow_avg,200,64,True,15,False

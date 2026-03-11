@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter cache
+.ipynb_checkpoints/
+
+# Tooling cache
+.pytest_cache/
+.mypy_cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Garde les sorties des notebooks (pas les ignorer)
+!output/

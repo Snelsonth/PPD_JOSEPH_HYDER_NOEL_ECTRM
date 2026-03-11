@@ -1,0 +1,7 @@
+dataset=YahooAnswer
+model=KMeans
+K=100
+seed=42
+TD=0.278667
+Purity=0.322100
+NMI=0.119480

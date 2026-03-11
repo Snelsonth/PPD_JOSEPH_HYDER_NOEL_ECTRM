@@ -1,0 +1,7 @@
+dataset=AGNews
+model=KMeans
+K=100
+seed=42
+TD=0.453333
+Purity=0.647700
+NMI=0.191633

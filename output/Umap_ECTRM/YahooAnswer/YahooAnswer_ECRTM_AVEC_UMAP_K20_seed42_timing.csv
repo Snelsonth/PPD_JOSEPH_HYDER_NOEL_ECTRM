@@ -1,0 +1,2 @@
+model,dataset,K,seed,device,phase,prep_seconds,umap_seconds,train_seconds,total_seconds,prep_minutes,umap_minutes,train_minutes,total_minutes,embedding_dim_before,embedding_dim_after,umap_enabled,umap_n_neighbors,umap_cache_hit
+ECRTM_AVEC_UMAP,YahooAnswer,20,42,cuda,train,22.194035061998875,22.19218856400039,575.5321126310009,598.427502384,0.3699005843666479,0.36986980940000647,9.59220187718335,9.9737917064,200,64,True,30,False

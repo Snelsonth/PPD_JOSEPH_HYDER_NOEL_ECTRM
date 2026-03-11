@@ -1,0 +1,2 @@
+model,dataset,K,seed,device,phase,prep_seconds,umap_seconds,train_seconds,total_seconds,prep_minutes,umap_minutes,train_minutes,total_minutes,mode,embedding_dim_before,embedding_dim_after,umap_enabled,umap_n_neighbors,umap_cache_hit
+Fast_topic_avec_UMAP,YahooAnswer,100,42,cuda,train,0.0,0.0,157.21595419899995,157.28402642400033,0.0,0.0,2.6202659033166658,2.6214004404000053,bow_avg,200,64,True,15,True

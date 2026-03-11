@@ -1,0 +1,2 @@
+model,dataset,K,seed,device,phase,prep_seconds,umap_seconds,train_seconds,total_seconds,prep_minutes,umap_minutes,train_minutes,total_minutes,mode,embedding_dim_before,embedding_dim_after,umap_enabled,umap_n_neighbors,umap_cache_hit
+Fast_topic_avec_UMAP,IMDB,100,42,cuda,train,0.0,0.0,289.844703104,290.03858999600016,0.0,0.0,4.8307450517333335,4.833976499933336,text,384,64,True,15,True

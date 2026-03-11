@@ -1,0 +1,5 @@
+Dataset: AGNews
+K: 100
+TD: 0.05
+Purity: 0.3165
+NMI: 0.009219613925038835

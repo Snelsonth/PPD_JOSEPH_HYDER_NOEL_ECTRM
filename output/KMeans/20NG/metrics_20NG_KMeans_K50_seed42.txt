@@ -1,0 +1,7 @@
+dataset=20NG
+model=KMeans
+K=50
+seed=42
+TD=0.316000
+Purity=0.377939
+NMI=0.309722

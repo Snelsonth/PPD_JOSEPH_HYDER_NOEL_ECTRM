@@ -1,0 +1,7 @@
+dataset=IMDB
+model=KMeans
+K=100
+seed=42
+TD=0.120000
+Purity=0.624240
+NMI=0.023261
