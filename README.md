@@ -19,10 +19,7 @@ PPD_2026_ECRTM/
 |- models/                   # composants modeles annexes
 |- notebook/
 |  |- baselines/             # notebooks actifs
-|  |- legacy_palmetto/       # anciens notebooks conserves
 |- output/                   # resultats exportes
-|- Projet_PPD/               # ancien espace de travail conserve
-|- tools/                    # scripts utilitaires
 |- .gitignore
 `- README.md
 ```
