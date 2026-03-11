@@ -107,7 +107,96 @@ On y trouve en general :
 - DVAE : `https://github.com/sophieburkhardt/dirichlet-vae-topic-models`
 
 ## Remarques
-
-- `notebook/legacy_palmetto/` contient des versions anciennes conservees pour reference.
-- `Projet_PPD/` est garde comme archive de travail.
 - Le dossier actif pour les experiences courantes est `notebook/baselines/`.
+
+
+## Citations
+
+Les references suivantes renvoient directement vers les pages officielles des revues, proceedings ou archives scientifiques.
+
+### Modeles principaux
+
+- `ECRTM` : Wu, X. et al. *Effective Neural Topic Modeling with Embedding Clustering Regularization*. [arXiv 2306.04217](https://arxiv.org/abs/2306.04217)
+- `FASTopic` : Wu, X. et al. *FASTopic: A Fast, Adaptive, Stable and Transferable Topic Modeling Paradigm*. [arXiv 2405.17978](https://arxiv.org/abs/2405.17978)
+
+### Baselines
+
+- `DVAE` : Burkhardt, S. and Kramer, S. *Decoupling Sparsity and Smoothness in the Dirichlet Variational Autoencoder Topic Model*. Journal of Machine Learning Research, 2019. [Article officiel](https://jmlr.org/papers/v20/18-569.html)
+- `LDA` : Blei, D. M., Ng, A. Y. and Jordan, M. I. *Latent Dirichlet Allocation*. Journal of Machine Learning Research, 2003. [Article officiel](https://www.jmlr.org/papers/v3/blei03a.html)
+- `K-Means topics` : Sia, S., Dalmia, A. and Mielke, S. J. *Tired of Topic Models? Clusters of Pretrained Word Embeddings Make for Fast and Good Topics too!*. EMNLP 2020. [Article officiel](https://aclanthology.org/2020.emnlp-main.135/)
+- `WLDA` : Nan, F., Ding, R., Nallapati, R. and Xiang, B. *Topic Modeling with Wasserstein Autoencoders*. ACL 2019. [Article officiel](https://aclanthology.org/P19-1640/)
+- `ETM` : Dieng, A. B., Ruiz, F. J. R. and Blei, D. M. *Topic Modeling in Embedding Spaces*. Transactions of the Association for Computational Linguistics, 2020. [Article officiel](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00325/96463/Topic-Modeling-in-Embedding-Spaces)
+- `HyperMiner` : Xu, Y., Wang, D., Chen, B., Lu, R., Duan, Z. and Zhou, M. *HyperMiner: Topic Taxonomy Mining with Hyperbolic Embedding*. NeurIPS 2022. [Article officiel](https://proceedings.neurips.cc/paper_files/paper/2022/file/cc7e4c6e6c8ef1e2fc4dadaf1f78cc50-Paper-Conference.pdf)
+- `NSTM` : Zhao, H., Phung, D., Huynh, V., Le, T. and Buntine, W. *Neural Topic Model via Optimal Transport*. arXiv 2020. [Article officiel](https://arxiv.org/abs/2008.13537)
+- `WeTe` : Wang, D., Guo, D., Zhao, H., Zheng, H., Tanwisuth, K., Chen, B. and Zhou, M. *Representing Mixtures of Word Embeddings with Mixtures of Topic Embeddings*. arXiv 2022. [Article officiel](https://arxiv.org/abs/2203.01570)
+
+### BibTeX minimal
+
+```bibtex
+@article{burkhardt2019decoupling,
+  title={Decoupling Sparsity and Smoothness in the Dirichlet Variational Autoencoder Topic Model},
+  author={Burkhardt, Sophie and Kramer, Stefan},
+  journal={Journal of Machine Learning Research},
+  volume={20},
+  number={131},
+  pages={1--27},
+  year={2019}
+}
+
+@article{blei2003latent,
+  title={Latent Dirichlet Allocation},
+  author={Blei, David M. and Ng, Andrew Y. and Jordan, Michael I.},
+  journal={Journal of Machine Learning Research},
+  volume={3},
+  pages={993--1022},
+  year={2003}
+}
+
+@inproceedings{sia2020tired,
+  title={Tired of Topic Models? Clusters of Pretrained Word Embeddings Make for Fast and Good Topics too!},
+  author={Sia, Suzanna and Dalmia, Ayush and Mielke, Sabrina J.},
+  booktitle={Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  pages={1728--1736},
+  year={2020}
+}
+
+@inproceedings{nan2019topic,
+  title={Topic Modeling with Wasserstein Autoencoders},
+  author={Nan, Feng and Ding, Ran and Nallapati, Ramesh and Xiang, Bing},
+  booktitle={Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},
+  pages={6345--6381},
+  year={2019}
+}
+
+@article{dieng2020topic,
+  title={Topic Modeling in Embedding Spaces},
+  author={Dieng, Adji B. and Ruiz, Francisco J. R. and Blei, David M.},
+  journal={Transactions of the Association for Computational Linguistics},
+  volume={8},
+  pages={439--453},
+  year={2020}
+}
+
+@inproceedings{xu2022hyperminer,
+  title={HyperMiner: Topic Taxonomy Mining with Hyperbolic Embedding},
+  author={Xu, Yi and Wang, Dongsheng and Chen, Bo and Lu, Ruiying and Duan, Zhibin and Zhou, Mingyuan},
+  booktitle={Advances in Neural Information Processing Systems},
+  volume={35},
+  pages={31557--31570},
+  year={2022}
+}
+
+@article{zhao2020neural,
+  title={Neural Topic Model via Optimal Transport},
+  author={Zhao, He and Phung, Dinh and Huynh, Viet and Le, Trung and Buntine, Wray},
+  journal={arXiv preprint arXiv:2008.13537},
+  year={2020}
+}
+
+@article{wang2022representing,
+  title={Representing Mixtures of Word Embeddings with Mixtures of Topic Embeddings},
+  author={Wang, Dongsheng and Guo, Dandan and Zhao, He and Zheng, Huangjie and Tanwisuth, Korawat and Chen, Bo and Zhou, Mingyuan},
+  journal={arXiv preprint arXiv:2203.01570},
+  year={2022}
+}
+```
