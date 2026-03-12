@@ -1,4 +1,4 @@
-# PPD_2026_ECRTM
+# PPD_2026_ECTRM
 
 Projet universitaire de comparaison et de reproduction de modeles de topic modeling, avec un focus principal sur ECRTM.
 
@@ -13,7 +13,7 @@ Le depot sert a :
 ## Structure du projet
 
 ```text
-PPD_2026_ECRTM/
+PPD_2026_ECTRM/
 |- Article/                  # papiers et references PDF
 |- data/                     # jeux de donnees
 |- models/                   # composants modeles annexes
@@ -37,7 +37,7 @@ Notebooks principaux :
 
 Autres baselines presentes :
 - `DVAE.ipynb`
-- `ETM_correct.ipynb`
+- `ETM.ipynb`
 - `HYPERMINER.ipynb`
 - `K-Means.ipynb`
 - `LDA.ipynb`
@@ -104,7 +104,7 @@ On y trouve en general :
 - DVAE : `https://github.com/sophieburkhardt/dirichlet-vae-topic-models`
 - WLDA : `https://github.com/jinmang2/W-LDA` 
 - LDA : `https://github.com/akashii99/Topic-Modelling-with-Latent-Dirichlet-Allocation`
-- Kmeans  `https://aclanthology.org/2020.emnlp-main.135/` présence d'un lien vers un zip 
+- K-Means topics : `https://aclanthology.org/2020.emnlp-main.135/`
 
 ## Remarques
 - Le dossier actif pour les experiences courantes est `notebook/baselines/`.
@@ -198,5 +198,23 @@ Les references suivantes renvoient directement vers les pages officielles des re
   author={Wang, Dongsheng and Guo, Dandan and Zhao, He and Zheng, Huangjie and Tanwisuth, Korawat and Chen, Bo and Zhou, Mingyuan},
   journal={arXiv preprint arXiv:2203.01570},
   year={2022}
+}
+
+@inproceedings{wu2023effective,
+  title={Effective neural topic modeling with embedding clustering regularization},
+  author={Wu, Xiaobao and Dong, Xinshuai and Nguyen, Thong Thanh and Luu, Anh Tuan},
+  booktitle={International Conference on Machine Learning},
+  pages={37335--37357},
+  year={2023},
+  organization={PMLR}
+}
+
+@article{wu2024fastopic,
+  title={Fastopic: Pretrained transformer is a fast, adaptive, stable, and transferable topic model},
+  author={Wu, Xiaobao and Nguyen, Thong and Zhang, Delvin and Wang, William Yang and Luu, Anh Tuan},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={84447--84481},
+  year={2024}
 }
 ```
