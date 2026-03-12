@@ -1,0 +1,2 @@
+model,dataset,K,seed,device,phase,train_seconds,total_seconds,train_minutes,total_minutes,mode
+FASTopic,YahooAnswer,20,42,cuda,train,90.48327153700029,90.81436321499996,1.5080545256166715,1.5135727202499993,bow_avg

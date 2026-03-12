@@ -1,0 +1,2 @@
+model,dataset,K,seed,device,phase,prep_seconds,umap_seconds,train_seconds,total_seconds,prep_minutes,umap_minutes,train_minutes,total_minutes,embedding_dim_before,embedding_dim_after,umap_enabled,umap_n_neighbors,umap_cache_hit
+ECRTM_AVEC_UMAP,AGNews,20,42,cuda,train,21.2572234510003,21.25514172799967,616.218266032,638.2137107650001,0.35428705751667167,0.35425236213332784,10.270304433866666,10.636895179416667,200,64,True,30,False

@@ -1,0 +1,2 @@
+model,dataset,K,seed,device,phase,train_seconds,total_seconds,train_minutes,total_minutes,mode
+FASTopic,AGNews,20,42,cuda,train,132.18161835900014,132.41021567100006,2.2030269726500022,2.206836927850001,bow_avg

@@ -1,0 +1,2 @@
+Dataset,K,Seed,C_V,TD,Purity,NMI
+IMDB,50,42,0.3701,0.6944,0.763,0.0867

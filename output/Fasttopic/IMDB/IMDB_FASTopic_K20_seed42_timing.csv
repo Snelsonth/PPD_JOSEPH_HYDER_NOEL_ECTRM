@@ -1,0 +1,2 @@
+model,dataset,K,seed,device,phase,train_seconds,total_seconds,train_minutes,total_minutes,mode
+FASTopic,IMDB,20,42,cuda,train,326.83023192899986,347.8998318809997,5.447170532149998,5.798330531349995,text

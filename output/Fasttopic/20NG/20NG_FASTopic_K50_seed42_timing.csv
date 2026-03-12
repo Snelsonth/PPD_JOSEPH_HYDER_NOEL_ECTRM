@@ -1,0 +1,2 @@
+model,dataset,K,seed,device,phase,train_seconds,total_seconds,train_minutes,total_minutes,mode
+FASTopic,20NG,50,42,cuda,train,165.14386227699993,171.51799570599997,2.752397704616665,2.858633261766666,text
