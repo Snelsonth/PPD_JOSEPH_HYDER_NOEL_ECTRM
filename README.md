@@ -105,6 +105,7 @@ On y trouve en general :
 - WLDA : `https://github.com/jinmang2/W-LDA` 
 - LDA : `https://github.com/akashii99/Topic-Modelling-with-Latent-Dirichlet-Allocation`
 - K-Means topics : `https://aclanthology.org/2020.emnlp-main.135/`
+- Palmetto : `https://github.com/dice-group/Palmetto`
 
 ## Remarques
 - Le dossier actif pour les experiences courantes est `notebook/baselines/`.
